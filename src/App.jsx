@@ -3,11 +3,12 @@ import "./styles/main.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar/navbar";
-import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contacs from "./pages/Contacs";
 import About_project from "./pages/About project";
+import Footer from "./components/footer/footer";
+
 
 import ScrollToTop from "./utils/scrollToTop";
 
@@ -27,7 +28,7 @@ function App() {
           <Route path="/contacts" element={<Contacs />} />
         </Routes>
 
-        <Footer/>
+        <Footer />
       </Router>
     </>
   )
