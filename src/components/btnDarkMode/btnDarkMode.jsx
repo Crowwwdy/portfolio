@@ -6,7 +6,7 @@ import detectDarkMode from '../../utils/detectDarkMode'
 import sun from "./../../img/icons/sun.svg"
 import moon from "./../../img/icons/moon.svg"
 
-import './BtnDarkMode.css'
+import './btnDarkMode.css'
 
 
 const BtnDarkMode = () => {
