@@ -19,6 +19,7 @@ function App() {
     <>
       <Router>
         <ScrollToTop />
+        
         <Navbar/>
 
         <Routes>
