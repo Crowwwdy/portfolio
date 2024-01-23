@@ -17,7 +17,7 @@ const Navbar = () => {
                         <strong>Freelancer</strong> portfolio
                     </NavLink>
 
-                    <BtnDarkMode />
+                    {/* <BtnDarkMode /> */}
 
                     <ul className="nav-list">
                         <li className="nav-list__item">
